@@ -1,8 +1,18 @@
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-blue-700">Metiz-O</h1>
-      <p>Проект запущен</p>
+    <div style={{ padding: "40px" }}>
+      <h1
+        style={{
+          color: "var(--color-primary)",
+          fontSize: "32px",
+          fontWeight: "bold",
+        }}
+      >
+        Metiz-O
+      </h1>
+      <p style={{ color: "var(--color-text-secondary)" }}>
+        Если этот текст серый, а заголовок синий — цвета работают.
+      </p>
     </div>
   );
 }
